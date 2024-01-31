@@ -94,7 +94,24 @@ h2 {
     }
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 601px) {
+    .Home{
+        margin-bottom: 300px;
+    }
+    .projects {
+        margin-bottom: 300px;
+    }
+    #pfp {
+        height: 300px;
+        width: 300px;
+        padding: 20px;
+    }
+    .about {
+        height: 90vh;
+    }
+}
+
+@media  (max-width: 375px) {
     .Home{
         margin-bottom: 400px;
     }
