@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>David's Portfolio</title>
 </head>
-<body>
+<body style="background-color: black;">
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">david<span>.af</span></a>
@@ -30,30 +30,31 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#about" style="color: black;">About</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts" style="color: black;">Contact</a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-      </nav>
-      <section class="Home">
+    </nav>
+
+    <section class="Home">
         <section id="home">
-            <div class="home container" style="font-size: 50px;">
-                <p>Welcome to my portfolio, <br>My name is
-                    <br><span>D</span>avid
-                </p>
-              </div>
+            <div class="home container">
+                <h1 style="font-size: 50px;">Welcome to my portfolio, <br>My name is
+                <br><span>D</span>avid
+                </h1>
+                <p style="font-size: 25px;">I am a programmer still currently studying, I primarily work on the backend of our projects and have participated in several projects.
+                    I am always looking for ways to enhance my skills in programming,
+                     trying to learn something new and always keeping up with latest news in tech.</p>
+                <a href="#project" class="btn btn-secondary btn-lg">Projects</a>
             </div>
-          </section>
-          <div class="description container">
-            <p>I am a programmer still currently studying, I primarily work on the backend of our projects and have participated in several projects.
-            I am always looking for ways to enhance my skills in programming, trying to learn something new and always keeping up with latest news in tech.</p>
-          </div>
-          <div class="container mt-1">
-            <a href="#project" class="btn btn-secondary btn-lg">Projects</a>
-        </div>
+        </section>
     </section>
+
     <section id="project">
-    <section class="projects">
+        <section class="projects">
             <div class="container mt-1">
                 <h2 class="text-center mb-4">Projects</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
@@ -62,8 +63,9 @@
                         <div class="card" style="align-items: center;">
                             <img src="src/img/img1.jpg" class="card-img-top" alt="Item 1 Image" height="400">
                             <div class="card-body">
-                                <h5 class="card-title">AUTO-MOTO</h5>
-                                <p class="card-text">A fine restaurant deserves a fine looking website. Se Livrer, a one of a kind experience in fine dining. ]
+                                <h5 class="title">AUTO-MOTO</h5>
+                                <p class="text">A fine restaurant deserves a fine looking website. Se Livrer, 
+                                    a one of a kind experience in fine dining restaurants. 
                                     This website was made using HTML, CSS, and JavaScript.</p>
                                 <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
@@ -74,14 +76,13 @@
                         <div class="card" style="align-items: center;">
                             <img src="src/img/automoto.png"  alt="Item 2 Image" height="400" width="200">
                             <div class="card-body">
-                                <h5 class="card-title">AUTO-MOTO</h5>
-                                <p class="card-text">An intuitive helper app for vehicle owners that'll help assist you in your repairs and questions.
+                                <h5 class="title">AUTO-MOTO</h5>
+                                <p class="text">An intuitive helper app for vehicle owners that'll help assist you in your repairs and questions.
                                     This app was made using Android Studio with Kotlin and sqlite database.</p>
                                 <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>         
-
                 </div>
             </div>
         </section>
@@ -89,32 +90,70 @@
 
     <section class="aboutme">
         <section id="about">
-            <div class="about container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="src/img/profile.jpg" class="img-fluid rounded-circle" alt="My Profile Picture">
+            <div class="container mt-1">
+                <h2 class="text-center mb-4">About</h2>
+                <div class="about container">
+                    <div class="row">
+                        <div class="col-md-7 text-center">
+                            <img src="src/img/profile.jpg" id="pfp" class="img-fluid rounded-circle" alt="My Profile Picture">
+                        </div>
+                        <div class="col-md-4">
+                            <h2><span>D</span>avid</h2>
+                            <p>
+                                is a second year programmer from PHINMA-UPang. I am an aspiring professional developer with lots to offer, 
+                                I am currently involved in an android development project. I have a passion for coding and being able to program application really makes me happy.
+                                I have been involved in some projects which can be seen above.
+                            </p>
+                            <h3>Skills</h3>
+                            <ul style="list-style-type: none; font-weight: 500;">
+                                <li>Web Development</li>
+                                <li>JavaScript</li>
+                                <li>HTML, CSS, Bootstrap</li>
+                                <li>Android Studio</li>
+                                <li>Mobile Development</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <h2>About Me</h2>
-                        <p>
-                            My name is David Aldrin Mondero, a second year programmer from PHINMA-UPang. I am an aspiring professional developer with lots to offer, 
-                            I am currently involved in an android development project. I have a passion for coding and being able to program application really makes me happy.
-                            I have been involved in some projects which can be seen above.
-                        </p>
-                        <h3>Skills</h3>
-                        <ul style="list-style-type: none; font-weight: 500;">
-                            <li>Web Development</li>
-                            <li>JavaScript</li>
-                            <li>HTML, CSS, Bootstrap</li>
-                            <li>Android Studio</li>
-                            <li>Mobile Development</li>
-                        </ul>
-                        <h3>Contact</h3>
-                        <ul style="list-style-type: none; font-weight: 500;">
-                            <li>GMail: aldrinmondero@gmail.com</li>
-                            <li>Facebook: David Aldrin Mondero</li>
-                            <li>Contact #: 0916-420-6969</li>
-                        </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="contact">
+        <section id="contacts">
+            <div class="container mt-4" >
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="https://www.instagram.com/daviddd.af" target="_blank" style="text-decoration: none;">
+                            <div class="card" style="border-radius: 20px; background-color: rgba(79, 77, 77, 0.415);">
+                                <div class="card-body">
+                                    <img src="src/img/instagram.png" style="width: 25px; ">
+                                    <p class="card-text">Instagram</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="https://www.facebook.com/profile.php?id=100084550564670" target="_blank" style="text-decoration: none;">
+                            <div class="card" style="border-radius: 20px; background-color: rgba(79, 77, 77, 0.415);">
+                                <div class="card-body">
+                                    <img src="src/img/facebook.png" style="width: 25px; ">
+                                    <p class="card-text">Instagram</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="https://www.linkedin.com/in/david-aldrin-ferrer-mondero-906781257/" target="_blank" style="text-decoration: none;">
+                            <div class="card" style="border-radius: 20px; background-color: rgba(79, 77, 77, 0.415);">
+                                <div class="card-body">
+                                    <img src="src/img/linkedin.png" style="width: 25px; ">
+                                    <p class="card-text">LinkedIn</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -128,6 +167,7 @@
             </div>
         </footer>
     </section>
+    
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

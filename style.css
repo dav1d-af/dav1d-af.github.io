@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    margin: 0;
+
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+span {
+    color: red;
+}
+
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('src/img/background1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.card-body {
+    text-align: center;
+}
+
+p {
+    font-weight: 500;
+}
+
+h2 {
+    color: white;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(79, 77, 77, 0.415);
+    border-radius: 20px;
+    color: white;
+}
+
+#pfp {
+    height: 500px;
+    width: 500px;
+}
+
+.card-title , .card-body {
+    color: white;
+}
+
+.text , .title{
+    color: black;
+}
+
+
+
+
+@media  (max-width: 896px) {
+    .Home{
+        margin-bottom: 300px;
+    }
+    .projects {
+        margin-bottom: 300px;
+    }
+    #pfp {
+        height: 300px;
+        width: 300px;
+        padding: 20px;
+    }
+    .about {
+        height: 80vh;
+    }
+}
