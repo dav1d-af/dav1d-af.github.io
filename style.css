@@ -93,3 +93,23 @@ h2 {
         height: 80vh;
     }
 }
+
+@media  (max-width: 600px) {
+    .Home{
+        margin-bottom: 400px;
+    }
+    .projects {
+        margin-bottom: 400px;
+    }
+    .intro-text {
+        font-size: 20px;
+    }
+    #pfp {
+        height: 200px;
+        width: 200px;
+    }
+    .about {
+        height: 100vh;
+    }
+}
+
