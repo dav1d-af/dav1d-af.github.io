@@ -69,8 +69,8 @@ h2 {
 }
 
 #pfp {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
 }
 
 .card-title , .card-body {
@@ -79,23 +79,6 @@ h2 {
 
 .text , .title{
     color: rgb(255, 255, 255);
-}
-
-@media  (max-width: 896px) {
-    .Home{
-        margin-bottom: 300px;
-    }
-    .projects {
-        margin-bottom: 300px;
-    }
-    #pfp {
-        height: 300px;
-        width: 300px;
-        padding: 20px;
-    }
-    .about {
-        height: 80vh;
-    }
 }
 
 @media  (max-width: 601px) {
