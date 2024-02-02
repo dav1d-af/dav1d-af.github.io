@@ -12,6 +12,11 @@ span {
     color: red;
 }
 
+#img-top , .card-img-top {
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .Home {
     display: flex;
     align-items: center;
@@ -37,10 +42,12 @@ span {
     height: 100vh;
     margin: 0;
 }
+
 .card-body {
     text-align: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: 20px;
 }
-
 p {
     font-weight: 500;
 }
@@ -71,11 +78,8 @@ h2 {
 }
 
 .text , .title{
-    color: black;
+    color: rgb(255, 255, 255);
 }
-
-
-
 
 @media  (max-width: 896px) {
     .Home{
